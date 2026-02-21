@@ -19,17 +19,12 @@ header {
 }
 
 .navbar {
-    position: relative;
-    z-index: 1001;
-}
-
-/* .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 5%;
     background: #000;
-} */
+} 
 
 .navbar .logo {
     font-size: 24px;
@@ -37,10 +32,10 @@ header {
     color: #f04e30;
 }
 
-/* .nav-links {
+.nav-links {
     display: flex;
     list-style: none;
-} */
+} 
 
 @media (max-width: 768px) {
 
@@ -115,11 +110,6 @@ header {
     z-index: 0; /* ensure behind navbar */
 }
 
-.hero-text,
-.hero-gallery {
-    position: relative;
-    z-index: 1;
-}
 
 /* .hero::after {
     content: "";
@@ -128,11 +118,11 @@ header {
     background: rgba(0, 0, 0, 0.55);
 } */
 
-/* .hero .hero-text {
+.hero .hero-text {
     position: relative;
     max-width: 800px;
     z-index: 1;
-} */
+}
 
 .hero h1 {
     font-size: 52px;
@@ -749,3 +739,4 @@ footer {
     color: #f04e30;
 
 }
+
